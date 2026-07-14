@@ -1,0 +1,21 @@
+======================================================================
+DEFINICIÓN DE ITERACIÓN SIMPLE Y CRITERIOS DE TERMINADO (DoD)
+======================================================================
+
+¿Qué 2 tareas del backlog harías primero?
+-----------------------------------------
+1. El registro de reportes/alertas por parte del ciudadano (Historia 1).
+2. Conexión y consulta del listado público de reportes por parte de los vecinos (Historia 3).
+
+¿Por qué son las más importantes?
+---------------------------------
+Estas dos tareas constituyen el núcleo mínimo viable (MVP) de la solución. Sin la posibilidad de registrar un dato y sin una interfaz o backend básico para consultar lo que se registró, la plataforma no tiene utilidad real. La automatización de alertas (Telegram) o la gestión de estados avanzada son mejoras valiosas, pero secundarias frente a la necesidad primaria de capturar y mostrar la información comunitaria.
+
+Definición de "Terminado" (Definition of Done - DoD)
+---------------------------------------------------
+Para que una tarea o historia de usuario se considere completamente finalizada en nuestro flujo, debe cumplir estrictamente con los siguientes 4 criterios:
+
+1. FUNCIONAL: El código ejecuta la acción esperada sin caídas en el servidor y pasa pruebas de uso local (entorno de desarrollo).
+2. SEGURA: No expone credenciales, tokens ni variables de entorno en el código público (uso correcto de .env).
+3. REGISTRADA: El código limpio, formateado y libre de logs innecesarios ha sido guardado en una rama del repositorio mediante Git.
+4. DOCUMENTADA: Se incluyó un breve comentario sobre su funcionamiento o se actualizó el archivo README del proyecto si es necesario.

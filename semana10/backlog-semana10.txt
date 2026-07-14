@@ -1,0 +1,15 @@
+======================================================================
+BACKLOG DE HISTORIAS DE USUARIO - PLATAFORMA DE VEEDURÍA CIUDADANA
+======================================================================
+
+[Prioridad Alta - Crítica para el núcleo de la plataforma]
+1. Como ciudadano, quiero registrar una alerta o reporte de daño vial en un formulario para dejar evidencia pública del estado de mi barrio.
+
+[Prioridad Media - Gestión y coordinación]
+2. Como coordinador del comité de veeduría, quiero recibir una notificación automática en Telegram cada vez que se registre un nuevo reporte para revisarlo y asignarle seguimiento rápidamente.
+
+[Prioridad Media - Transparencia]
+3. Como vecino de la comuna, quiero consultar un listado público de los reportes generados para conocer qué problemáticas ya han sido registradas por otros usuarios y evitar duplicados.
+
+[Prioridad Baja - Cierre de ciclo]
+4. Como administrador del sistema, quiero poder actualizar el estado de un reporte (ej. "En revisión", "Solucionado") para mantener a la comunidad informada sobre los avances de la gestión.

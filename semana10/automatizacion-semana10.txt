@@ -1,0 +1,21 @@
+======================================================================
+DISEÑO DE FLUJO DE AUTOMATIZACIÓN (n8n + TELEGRAM)
+======================================================================
+
+1. ¿Qué evento activa el flujo?
+El flujo se activa mediante un nodo Webhook en n8n. Este nodo se dispara automáticamente cada vez que un ciudadano envía con éxito el formulario de registro de un nuevo reporte en la plataforma comunitaria.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviará un mensaje genérico al canal de coordinación comunitaria estructurado de la siguiente forma:
+"📢 ¡Nuevo reporte ciudadano registrado en el sistema!
+ID del Caso: [ID_generado]
+Categoría: [Categoría_del_problema]
+Descripción breve: [Descripción]
+Por favor, ingrese al panel administrativo para realizar la verificación y asignación correspondiente."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por políticas estrictas de privacidad y protección de datos, queda prohibido mapear o enviar al chat de Telegram:
+- Nombres y apellidos completos del ciudadano que reporta.
+- Números de teléfono o correos electrónicos personales.
+- Direcciones exactas de domicilio (en su lugar se usa solo la comuna o barrio general).
+- Cédulas, documentos de identidad o cualquier tipo de credencial o contraseña.
