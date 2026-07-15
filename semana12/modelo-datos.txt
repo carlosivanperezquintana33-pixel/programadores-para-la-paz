@@ -1,0 +1,17 @@
+Modelo de Datos - Petición en 3 Clics:
+
+1. Entidad: Causa
+   Campos:
+   - id: Identificador único de la causa (clave primaria).
+   - titulo: Nombre representativo de la problemática o iniciativa.
+   - descripcion: Explicación detallada de los objetivos y por qué se necesita el apoyo.
+   - fecha: Día y hora en la que se creó la causa.
+   Propósito: Sirve para almacenar de forma organizada la información general de la propuesta ciudadana sobre la cual la comunidad va a votar o apoyar.
+
+2. Entidad: Apoyo
+   Campos:
+   - id: Identificador único del apoyo (clave primaria).
+   - causa_id: Relación con la causa que se está apoyando (clave foránea).
+   - nombre: Nombre del ciudadano que apoya la causa (minimizado para proteger su privacidad).
+   - fecha: Día y hora exacta en la que se registró el voto de respaldo.
+   Propósito: Sirve para registrar cada voto o respaldo individual de la comunidad de manera transparente, permitiendo auditar y sumar el total de apoyos por cada causa creada.

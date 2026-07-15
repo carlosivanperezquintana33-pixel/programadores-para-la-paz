@@ -1,0 +1,5 @@
+Flujo de Automatización - Petición en 3 Clics:
+
+- Evento que activa la automatización: El sistema detecta una nueva causa creada o un incremento importante en los apoyos (ej. cuando una causa alcanza las primeras 50 firmas).
+- Mensaje que se envía: "¡Atención comunidad! Se ha registrado una nueva causa titulada '[Título]' en la plataforma. Te invitamos a leerla y sumarte con tu apoyo digital para hacer el cambio real en nuestro barrio."
+- Información sensible que NO debe enviarse por seguridad: Bajo ninguna circunstancia se enviarán datos personales como números de cédula, nombres completos de los apoyantes (a menos que se autorice explícitamente), números de teléfono, correos electrónicos o direcciones de residencia. Tampoco se compartirán comentarios que vulneren la privacidad de los vecinos.

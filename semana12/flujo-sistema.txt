@@ -1,0 +1,7 @@
+Flujo del Sistema - Petición en 3 Clics:
+
+1. Creación de la causa: Un líder o ciudadano de la comunidad registra una causa con título, descripción clara y el propósito de la petición.
+2. Almacenamiento seguro: La causa y sus datos se guardan de forma segura en la base de datos centralizada de la plataforma.
+3. Registro de apoyos directos: Los vecinos de la comunidad ingresan a la plataforma, leen la causa y añaden su apoyo digital con un solo clic.
+4. Conteo automático de firmas: El sistema procesa, agrupa y cuenta los apoyos que va recibiendo la causa en tiempo real.
+5. Generación del documento final: El sistema genera de forma automática un archivo PDF formal con los detalles de la causa y el total de respaldos, listo para ser descargado y presentado ante las autoridades.
