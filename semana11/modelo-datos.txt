@@ -1,0 +1,9 @@
+MODELO DE DATOS BÁSICO
+
+Entidad: Causa
+Campos: id, titulo, descripcion, fecha_creacion
+Propósito: Almacenar las causas comunitarias visibles en la plataforma.
+
+Entidad: Apoyo
+Campos: id, causa_id, usuario_anonimo_id, fecha_apoyo
+Propósito: Registrar de manera segura los apoyos recibidos por cada causa.

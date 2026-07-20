@@ -1,0 +1,1 @@
+El login identifica de manera segura a un usuario antes de darle acceso. Algunas rutas deben estar protegidas porque manejan información interna o permiten realizar modificaciones críticas. No se deben exponer públicamente contraseñas, documentos de identidad, teléfonos, direcciones, tokens de acceso o variables de entorno.

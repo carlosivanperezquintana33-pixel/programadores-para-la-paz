@@ -1,0 +1,1 @@
+La interfaz tendrá un formulario privado para crear una causa con título y descripción. También un panel público que listará las causas disponibles en tarjetas visuales. Cada tarjeta incluirá un contador dinámico de apoyos y un botón interactivo para que los usuarios sumen su voto con un solo clic.
